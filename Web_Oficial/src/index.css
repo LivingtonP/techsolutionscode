@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Changa+One:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes scale-rotate-pulse {
+	0%, 100% {
+		transform: scale(1) rotate(18deg);
+	}
+	50% {
+		transform: scale(1.10) rotate(18deg);
+	}
+}
+
+.animate-scale-rotate-pulse {
+	animation: scale-rotate-pulse 1s infinite;
+}
+
